@@ -1,0 +1,18 @@
+#tasks {
+  width: 316px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#tasks p {
+  margin-bottom: 4px;
+}
+#tasks ol {
+  padding-left: 20px;
+}
+#tasks li span {
+  color: green;
+  display: none;
+}
+#tasks li span:after {
+  content: "✓"
+}
